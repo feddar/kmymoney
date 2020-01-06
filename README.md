@@ -4,6 +4,7 @@ Dockerized KMyMoney
 
 ## How to run
 (as your username)
+```  
 HOME="$(echo ~)"
 mkdir -p ${HOME}/kmymoney-docker-home
 xhost +
@@ -19,3 +20,4 @@ sudo docker run -ti \
     -e USER=${USER} \
     -e USERID=${UID} \
     neomediatech/kmymoney
+```
